@@ -1,0 +1,227 @@
+/* Scroll */
+::-webkit-scrollbar{
+    background-color: #252525;
+    border: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #276d21; 
+}
+
+
+/* Titulo */
+.Titutxt{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Titutxt h1{
+    font-size: 5vw;
+}
+
+/* Modal */
+.btn-mods{
+    background-color: coral;
+    margin: 5px;
+}
+
+.btn-mods:hover{
+    background-color: rgb(253, 90, 31);
+}
+
+.modal{
+    margin-top: 0;
+}
+
+.modal-content{
+    margin-bottom: 10rem;
+}
+
+.modal-header{
+    background-color: coral;
+    padding: 2vw;
+}
+
+.modal-body{
+    background-color: #fff;
+}
+
+.modal-footer{
+    background-color: #dddddd;
+}
+
+
+/* tables */
+table.dataTable thead, table.dataTable tfoot {
+    background: #198754;
+}
+
+
+.btn-acoes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit{
+    background-color: coral;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1vw;
+}
+
+.edit:hover{
+    background-color: rgb(253, 90, 31);
+}
+
+.scrollable{
+    overflow-x: scroll;
+    overflow-x: hidden;
+    max-height: 50vh;
+}
+
+.espaçoP input{
+    margin-top: 1rem;
+}
+
+.modal-footer{
+    background-color: rgb(201, 215, 219);
+}
+
+.table-hover{
+    margin-top: 2rem;
+}
+
+
+
+
+
+/* Nav Bar Top */
+   .navbar .navbar-menu-wrapper {
+    background: linear-gradient(to bottom, #dddddd 38%, #f1f1f1 76%, #f8f9fa 179%);
+    transition: width 0.25s ease;
+    -webkit-transition: width 0.25s ease;
+    -moz-transition: width 0.25s ease;
+    -ms-transition: width 0.25s ease;
+    color: #6C7383;
+    padding-left: 3.5rem;
+    padding-right: 2.187rem;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: calc(100% - 220px);
+    height: 97px;
+}
+
+    /* Nav Bar Lateral */
+.sidebar-icon-only .sidebar {
+    width: 70px;
+    background: #ddd !important;
+}
+
+.sidebar-icon-only .navbar .navbar-brand-wrapper {
+    width: 70px;
+    padding-left: 1.625rem;
+    background: #ddd !important;
+}
+
+.sidebar {
+    min-height: calc(100vh - 97px);
+    background: #dddddd !important;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    width: 220px;
+    z-index: 11;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+}
+
+.navbar .navbar-brand-wrapper {
+    background: #dddddd !important;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+    width: 220px;
+    height: 97px;
+    padding: 20px 35px;
+}
+
+    /* Nav Icons */
+.sidebar .nav .nav-item.active > .nav-link i, .sidebar .nav .nav-item.active > .nav-link .menu-title, .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
+    color: #198754;
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-icon:before {
+    vertical-align: middle;
+    color: #198754;
+}
+
+
+.navbar .navbar-brand-wrapper .navbar-toggler {
+    border: 0;
+    color: #198754;
+    font-size: 1.2rem;
+    padding: 0;
+    border-radius: 0;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-icon {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    color: #198754 !important;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.active .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #198754 !important;
+}
+
+
+    /* Cards */
+.modal-header{
+    background-color: #0a7f60;
+}
+
+.modal-body{
+    background-color: #dddddd;
+}
+
+.modal-footer{
+    background-color: #dddddd;
+}
+
+.card-header {
+    background-color: #0a7f60;
+}
+
+.card-body {
+    background: linear-gradient(to bottom, #08694f -119%, #f1f1f1 65%, #f8f9fa 90%);
+}
+
+    /* Footer */
+.footer {
+    background: #dddddd;
+    color: color(dark)!important;
+    padding: 30px 2.45rem;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    font-size: calc(0.812rem - 0.05rem);
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}

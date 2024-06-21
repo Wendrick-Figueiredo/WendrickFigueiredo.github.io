@@ -1,0 +1,88 @@
+/* All */
+.card{
+    margin-top: 2rem;
+}
+
+/* Scroll */
+::-webkit-scrollbar{
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6b6b6b; 
+}
+
+/* Part1 */
+.part1{
+    margin-top: 1rem;
+}
+
+.part1 h2{
+    text-align: center;
+}
+
+
+
+
+/* Part 1-1 */
+.boxs{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxs h5{
+    font-size: 1.3vw;
+}
+
+/* Part 2 */
+.part2 h2{
+    margin-top: 2rem;
+}
+
+/* Part 2-2 */
+.minibox{
+    display: flex;
+}
+
+.boxp{
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    display: grid; 
+}
+
+.boxp input{
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.lado{
+    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+/* Part 3 */
+.part3{
+    display: block;
+}
+
+.part3 h2{
+    margin-top: 2rem;
+}
+
+
+
+
+/* Part 4 */
+.part4{
+    display: block;
+}
+
+.part4 h2{
+    margin-top: 2rem;
+}

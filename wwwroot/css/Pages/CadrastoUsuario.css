@@ -1,0 +1,21 @@
+/* Scroll */
+::-webkit-scrollbar{
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6b6b6b; 
+}
+
+/* card */
+.card-principal{
+    border-radius: 0;
+}
+
+.card-header{
+    background-color: coral;
+}
+
+.card-body{
+    background-color: #dddddd;
+}

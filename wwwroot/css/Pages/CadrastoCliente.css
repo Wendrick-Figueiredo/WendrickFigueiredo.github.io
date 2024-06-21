@@ -1,0 +1,195 @@
+/* Scroll */
+::-webkit-scrollbar{
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6b6b6b; 
+}
+
+
+/* background */
+.content-wrapper{
+    
+}
+
+/* modal */
+.modal-header{
+    background-color: #0a7f60;
+}
+
+.modal-body{
+    background-color: #dddddd;
+}
+
+.modal-footer{
+    background-color: #dddddd;
+}
+
+.card-header {
+    background-color: #0a7f60;
+}
+
+.card-body {
+    background: linear-gradient(to bottom, #08694f -119%, #f1f1f1 65%, #f8f9fa 90%);
+}
+
+.row{
+    --bs-gutter-x: 0.5rem;
+}
+
+.lado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sub modal */
+.modal-lado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0,-60px);
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .NomeRES{
+        margin-top: -3rem;
+    }
+}
+
+
+
+
+/* Novas Cores */
+
+   /* Nav Bar Top */
+   .navbar .navbar-menu-wrapper {
+    background: linear-gradient(to bottom, #dddddd 38%, #f1f1f1 76%, #f8f9fa 179%);
+    transition: width 0.25s ease;
+    -webkit-transition: width 0.25s ease;
+    -moz-transition: width 0.25s ease;
+    -ms-transition: width 0.25s ease;
+    color: #6C7383;
+    padding-left: 3.5rem;
+    padding-right: 2.187rem;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: calc(100% - 220px);
+    height: 97px;
+}
+
+    /* Nav Bar Lateral */
+.sidebar-icon-only .sidebar {
+    width: 70px;
+    background: #ddd !important;
+}
+
+.sidebar-icon-only .navbar .navbar-brand-wrapper {
+    width: 70px;
+    padding-left: 1.625rem;
+    background: #ddd !important;
+}
+
+
+.sidebar {
+    min-height: calc(100vh - 97px);
+    background: #dddddd !important;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    width: 220px;
+    z-index: 11;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+}
+
+.navbar .navbar-brand-wrapper {
+    background: #dddddd !important;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+    width: 220px;
+    height: 97px;
+    padding: 20px 35px;
+}
+
+
+    /* Nav Icons */
+.sidebar .nav .nav-item.active > .nav-link i, .sidebar .nav .nav-item.active > .nav-link .menu-title, .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
+    color: #0a7f60;
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-icon:before {
+    vertical-align: middle;
+    color: #0a7f60;
+}
+
+.navbar .navbar-brand-wrapper .navbar-toggler {
+    border: 0;
+    color: #198754;
+    font-size: 1.2rem;
+    padding: 0;
+    border-radius: 0;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item .nav-link i.menu-icon {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    color: #198754 !important;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.active .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #198754 !important;
+}
+
+    /* Cards */
+.modal-header{
+    background-color: #0a7f60;
+}
+
+.modal-body{
+    background-color: #dddddd;
+}
+
+.modal-footer{
+    background-color: #dddddd;
+}
+
+.card-header {
+    background-color: #0a7f60;
+}
+
+.card-body {
+    background: linear-gradient(to bottom, #08694f -119%, #f1f1f1 65%, #f8f9fa 90%);
+}
+
+    /* Footer */
+.footer {
+    background: #dddddd;
+    color: color(dark)!important;
+    padding: 30px 2.45rem;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    font-size: calc(0.812rem - 0.05rem);
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}

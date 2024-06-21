@@ -1,0 +1,8 @@
+/* Scroll */
+::-webkit-scrollbar{
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6b6b6b; 
+}
